@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./resume.css" />
+    <title>Contact me</title>
+  </head>
+  <body>
+    <hr />
+    <a href="./index.html">Home</a> | <a href="./education.html">Education</a> |
+    <a href="./work.html">Work Experience</a> |
+    <a class="current" href="./contact.html">Contact me</a> |
+    <a class="extra" href="./extra.html">EXTRA</a> |
+    <hr />
+    <h1>Contact Me</h1>
+      <form action="http://jkorpela.fi/cgi-bin/echo.cgi">
+        <fieldset style="border-radius: 10px; border-color: #ffffff90;">
+        <legend>Enter your info</legend>
+
+        <label for="name">Your Name</label><br />
+        <input type="text" name="name" id="name" placeholder="Suksom Wansai" />
+        <br /><br />
+        <label for="email">Your E-mail</label><br />
+        <input
+          type="text"
+          name="email"
+          id="email"
+          placeholder="example@exmail.com"
+        />
+        <br /><br />
+        <label for="gender">Gender</label><br />
+        <select style="width: 250px" name="gender" id="gender">
+          <option value="male">Male</option>
+          <option value="female">Female</option>
+          <option value="other">Other</option>
+        </select>
+        <br><br>
+        <label for="msg">Message</label>
+        <textarea name="msg" id="msg" cols="30" rows="10"></textarea>
+        <br><br>
+        <button>Send</button><button type="reset">Clear</button>
+      </form>
+    </fieldset>
+  </body>
+</html>

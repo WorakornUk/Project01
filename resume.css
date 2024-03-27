@@ -1,0 +1,36 @@
+a {
+    text-decoration: none;
+    color: blue;
+  }
+  a.extra:hover,a:hover  {
+    color: cornflowerblue;
+  }
+  a:active {
+    color: red;
+  }
+  a.current {
+    color: red;
+  }
+
+  a.extra {
+    color: coral;
+  }
+  table{
+    width: 60vw;
+    border-collapse: collapse;
+  }
+  th,td {
+    border: 1px solid black;
+    padding: 10px;
+  }
+
+  td.work{
+    background-color: #50d3ff57;
+  }
+
+  form{
+    width: 300px;
+  }
+  input{
+    width: 250px;
+  }
